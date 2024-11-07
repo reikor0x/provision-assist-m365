@@ -485,6 +485,7 @@
                 <FieldRef Name="Description" />
                 <FieldRef Name="BusinessJustification" />
                 <FieldRef Name="Requirements" />
+                <FieldRef Name="RequirementIds" />
                 <FieldRef Name="SpaceType" />
                 <FieldRef Name="Owners" />
                 <FieldRef Name="Members" />
@@ -513,6 +514,7 @@
             <Field AppendOnly="FALSE" DisplayName="Description" Format="Dropdown" IsModern="TRUE" IsolateStyles="FALSE" Name="Description" RichText="FALSE" RichTextMode="Compatible" Title="Description" Type="Note" ID="{748b2beb-10ed-4858-9493-c9159707d479}" SourceID="{{listid:Provisioning Requests}}" StaticName="Description" ColName="ntext2" RowOrdinal="0" />
             <Field AppendOnly="FALSE" DisplayName="Business Justification" Format="Dropdown" IsModern="TRUE" IsolateStyles="FALSE" Name="BusinessJustification" RichText="FALSE" RichTextMode="Compatible" Title="Business Justification" Type="Note" ID="{ea6d6e55-8b05-4c30-ad90-ca3e23d5eae5}" SourceID="{{listid:Provisioning Requests}}" StaticName="BusinessJustification" ColName="ntext3" RowOrdinal="0" />
             <Field AppendOnly="FALSE" DisplayName="Requirements" Format="Dropdown" IsModern="TRUE" IsolateStyles="FALSE" Name="Requirements" RichText="FALSE" RichTextMode="Compatible" Title="Requirements" Type="Note" ID="{4263a9c3-c180-40a7-a30e-7c13a64602a6}" SourceID="{{listid:Provisioning Requests}}" StaticName="Requirements" ColName="ntext4" RowOrdinal="0" />
+            <Field AppendOnly="FALSE" DisplayName="RequirementIds" Format="Dropdown" IsModern="TRUE" IsolateStyles="FALSE" Name="RequirementIds" RichText="FALSE" RichTextMode="Compatible" Title="RequirementIds" Type="Note" ID="{4263a9c3-c180-40a7-a30e-7c13a64602a7}" SourceID="{{listid:Provisioning Requests}}" StaticName="RequirementIds" ColName="ntext4" RowOrdinal="0" />
             <Field Type="Choice" DisplayName="Space Type" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" Direction="None" FillInChoice="FALSE" ID="{06a99ffa-db71-497a-871a-1bd2b908e312}" SourceID="{{listid:Provisioning Requests}}" StaticName="SpaceType" Name="SpaceType" ColName="nvarchar7" RowOrdinal="0" CustomFormatter="" Version="1">
               <Default>Team Site</Default>
               <CHOICES>
